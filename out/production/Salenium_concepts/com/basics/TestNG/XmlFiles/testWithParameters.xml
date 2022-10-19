@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Login Automation Suite">
+    <test name="Login Test With Parameters">
+        <parameter name="url" value="https://www.saucedemo.com"/>
+        <parameter name="userName" value="standard_user"/>
+        <parameter name="password" value="secret_sauce"/>
+
+        <classes>
+            <class name="com.basics.TestNG.Parameters.LoginTestWithParameters"/>
+        </classes>
+    </test>
+</suite>

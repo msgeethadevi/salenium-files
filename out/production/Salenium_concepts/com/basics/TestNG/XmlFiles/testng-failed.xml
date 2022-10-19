@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/geeth/IdeaProjects/Salenium_concepts/src/com/basics/TestNG/TestWithAnnotations.java(failed)">
+    <classes>
+      <class name="com.basics.TestNG.TestWithAnnotations">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="testSetUp"/>
+        </methods>
+      </class> <!-- com.basics.TestNG.TestWithAnnotations -->
+    </classes>
+  </test> <!-- C:/Users/geeth/IdeaProjects/Salenium_concepts/src/com/basics/TestNG/TestWithAnnotations.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
